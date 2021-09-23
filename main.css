@@ -1,0 +1,188 @@
+.grid {
+    display: grid;
+    grid-template-columns: 20vw auto 20vw;
+    grid-gap: 0em;
+   
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    border-style: none;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    border-style: none;
+    clear: both;
+}
+
+@media all and (max-width: 350px) {
+aside, article {
+        grid-column-start: 1;
+        grid-column-end: span 3; 
+        border-style: none;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+aside, article {
+    background: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border-style: none;
+    padding: 1vw;
+}
+
+header {
+    
+    background: #d8d7d7;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 10vh;
+}
+
+footer {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 10vh;
+    clear: both;
+}
+
+.sidebar-right{
+    background-color: #eaeaea;
+    padding: 5vw;
+}
+
+.sidebar-left{
+    background-color: #eaeaea;
+    padding: 5vw;
+}
+
+p {
+    color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0.5vw 0vw 0vw 1vw;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    color: rgb(22, 22, 22);
+    font-size: 4em;
+    margin: 0vw 0vw 0vw 1vw;
+   
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    color: rgb(22, 22, 22);
+    font-size: 2.5em;
+    margin: 0vw 0vw 0vw 1vw;
+   
+}
+
+h3 {
+    font-family: 'Special Elite', cursive;
+    color: rgb(22, 22, 22);
+    font-size: 1.5em;
+    margin: 0vw 0vw 0vw 1vw;
+   
+}
+
+.footfont
+{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0vw 0vw 0vw 1vw;
+}
+
+img {
+    width: 18vw;
+    height: auto;
+  }
+
+  table {
+    color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+    margin: 1vw;
+
+}
+
+ol {
+    color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+    
+}
+
+th, td {
+    padding-right: 15px;
+}
+
+
+
+  a, a:link, a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ff09ca;
+    margin: 0vw 0vw 0vw 2vw;
+    text-decoration:none;
+}
+
+
+  a:active {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: hotpink;
+    margin: 0vw 0vw 0vw 2vw;
+    text-decoration: none;
+}
+
+  a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: hotpink;
+    margin: 0vw 0vw 0vw 2vw;
+    text-decoration: none;
+}
+
+  .button {
+    background-color: #ff09ca;
+    border: none;
+    color: white;
+    padding: 1vw 3vw 1vw 3vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 0vw 0vw 0vw 1vw;
+
+}
+
+  .button:hover {
+  background-color: hotpink;
+  
+}
